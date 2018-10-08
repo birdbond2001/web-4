@@ -148,11 +148,11 @@ li:hover{
 {
 color: rgb(0, 174, 255);
 }
-#monthlyusage-sation
+.monthlyusage-sation
 {
-padding-top: 10px;
+
 font-size: 20px;
-margin-top: 40px;
+margin-top: 52.5px;
 
 }
 .bigsize-number-blue
