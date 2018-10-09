@@ -216,41 +216,52 @@ h2{
 {
     display: grid;
   grid-template-columns: auto auto auto auto auto auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
+  grid-gap: 0px;
+  
   padding: 10px;
   margin-top: 60px; 
   min-width: 800px; 
 }
 .package-setion> div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(8, 4, 61, 0.8);
     text-align: center;
-    padding: 20px 20px;
+   
     font-size: 30px;
   }
   .package-item1
   {
     grid-column: 1 / 9 ;
+    padding: 20px;
+    color: white;
   }
 .package-bigword
 {
     font-size: 20px;
     font-weight: 500;
+    padding: 10px;
+    text-align: left;
+    color: white;
 }
-.package-install-word
+.package-word
 {
     margin:0px;
     text-align: left;
     font-size: 15px;
+    padding-left: 10px;
+    color: white;
 }
 .package-view-details
 {
     font-size: 15px;
     text-align: left;
     margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    color: white;
 }
 .package-icon
 {
- 
+ padding-top:60px; 
+ color: white;
     
 }
