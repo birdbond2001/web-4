@@ -265,3 +265,102 @@ h2{
  color: white;
     
 }
+.mcafee-sation
+{
+    display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 0px;
+ 
+  padding: 10px;
+  margin-top: 60px;
+  
+}
+.mcafee-sation> div {
+    
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+  }
+  .mcafee-item1
+  {
+   
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    
+  
+  }
+  .mcafee-item2
+  {
+    grid-column: 5 / 9;
+    grid-row: 1 / 3;
+    text-align: center;
+    background-color: white;
+    border-bottom: 2px solid ghostwhite;
+  }
+  .mcafee-item3
+  {
+    grid-column:  1/ 5;
+    grid-row: 3 / 10;
+  }
+  .mcafee-item4
+  {
+    grid-column: 5 / 9;
+    grid-row: 3 / 10;
+    background-color: white;
+  }
+
+  img{
+      width: 170px;
+    height: 240px;
+    margin-right: 120px;
+    margin-left: 160px;
+  }
+  .mcafee-bigword
+  {
+      font-size: 15px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      margin-top: 60px;
+      margin-right: 40px;
+      
+  }
+.mcafee-smallword
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+.mcafee-button
+{
+    border-radius:15px;
+    width: 250px;
+    height: 30px;
+    background-color: rgb(9, 37, 97);
+    color: white;
+    
+}
+.mcafee-item3-bigword1
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 153px;
+}
+.mcafee-item3-bigword2
+{
+    margin-top: 2px;
+    text-align: left;
+    margin-left: 70px;
+}
+.mcafee-item3-smallword
+{
+    margin-left: 70px;
+}
+.mcafee-item4-bigword1
+{
+    margin-top: 50px;
+}
+.mcafee-item4-button
+{
+    margin-bottom: 40px;
+}
