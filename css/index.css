@@ -212,3 +212,45 @@ h2{
     margin-bottom: 2px;
     margin-top: 40px;
 }
+.package-setion
+{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-top: 60px; 
+  min-width: 800px; 
+}
+.package-setion> div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+  }
+  .package-item1
+  {
+    grid-column: 1 / 9 ;
+  }
+.package-bigword
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.package-install-word
+{
+    margin:0px;
+    text-align: left;
+    font-size: 15px;
+}
+.package-view-details
+{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+}
+.package-icon
+{
+ 
+    
+}
